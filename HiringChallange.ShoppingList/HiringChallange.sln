@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E97CCC31-38D0-496F-8F46-B47576656D90}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{C8554A47-DC61-4935-A422-2AACA52E2D0D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HiringChallange.Domain", "src\core\HiringChallange.Domain\HiringChallange.Domain.csproj", "{A05DE4DE-E09B-4B89-8DB9-25020A361B4E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HiringChallange.Application", "src\core\HiringChallange.Application\HiringChallange.Application.csproj", "{D7AB546D-4BC9-4447-B020-5CE5ECD26C1B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{03BD1B83-D082-4AF3-8389-773C031B3619}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HiringChallange.Persistence", "src\Infrastructure\HiringChallange.Persistence\HiringChallange.Persistence.csproj", "{A64C73B6-EF03-47D7-84F7-E7D61A85DDDD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{CDB22DD0-88ED-48C3-8308-D88DC62D499B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HiringChallange.WebApi", "src\WebApi\HiringChallange.WebApi\HiringChallange.WebApi.csproj", "{6523D6EF-18ED-4FCC-AD6F-9BBDC3C6F7C2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HiringChallange.Infrastructure", "src\Infrastructure\HiringChallange.Infrastructure\HiringChallange.Infrastructure.csproj", "{0A56CE87-2AA0-4274-BB9D-2A05DB21A29D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HiringChallangeConsumerWorker", "src\Consumer\HiringChallangeConsumerWorker.csproj", "{9289693B-4AA4-4F39-81E8-ED60617DB2D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{31A0F9FB-9B89-4A04-8634-AE07A29784F6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HiringChallange.Test", "src\Test\HiringChallange.Test\HiringChallange.Test.csproj", "{D27040B8-6F32-4981-BB5B-3EC7BBD58B28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A05DE4DE-E09B-4B89-8DB9-25020A361B4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A05DE4DE-E09B-4B89-8DB9-25020A361B4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A05DE4DE-E09B-4B89-8DB9-25020A361B4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A05DE4DE-E09B-4B89-8DB9-25020A361B4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7AB546D-4BC9-4447-B020-5CE5ECD26C1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7AB546D-4BC9-4447-B020-5CE5ECD26C1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7AB546D-4BC9-4447-B020-5CE5ECD26C1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7AB546D-4BC9-4447-B020-5CE5ECD26C1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A64C73B6-EF03-47D7-84F7-E7D61A85DDDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A64C73B6-EF03-47D7-84F7-E7D61A85DDDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A64C73B6-EF03-47D7-84F7-E7D61A85DDDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A64C73B6-EF03-47D7-84F7-E7D61A85DDDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6523D6EF-18ED-4FCC-AD6F-9BBDC3C6F7C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6523D6EF-18ED-4FCC-AD6F-9BBDC3C6F7C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6523D6EF-18ED-4FCC-AD6F-9BBDC3C6F7C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6523D6EF-18ED-4FCC-AD6F-9BBDC3C6F7C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A56CE87-2AA0-4274-BB9D-2A05DB21A29D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A56CE87-2AA0-4274-BB9D-2A05DB21A29D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A56CE87-2AA0-4274-BB9D-2A05DB21A29D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A56CE87-2AA0-4274-BB9D-2A05DB21A29D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9289693B-4AA4-4F39-81E8-ED60617DB2D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9289693B-4AA4-4F39-81E8-ED60617DB2D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9289693B-4AA4-4F39-81E8-ED60617DB2D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9289693B-4AA4-4F39-81E8-ED60617DB2D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D27040B8-6F32-4981-BB5B-3EC7BBD58B28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D27040B8-6F32-4981-BB5B-3EC7BBD58B28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D27040B8-6F32-4981-BB5B-3EC7BBD58B28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D27040B8-6F32-4981-BB5B-3EC7BBD58B28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C8554A47-DC61-4935-A422-2AACA52E2D0D} = {E97CCC31-38D0-496F-8F46-B47576656D90}
+		{A05DE4DE-E09B-4B89-8DB9-25020A361B4E} = {C8554A47-DC61-4935-A422-2AACA52E2D0D}
+		{D7AB546D-4BC9-4447-B020-5CE5ECD26C1B} = {C8554A47-DC61-4935-A422-2AACA52E2D0D}
+		{03BD1B83-D082-4AF3-8389-773C031B3619} = {E97CCC31-38D0-496F-8F46-B47576656D90}
+		{A64C73B6-EF03-47D7-84F7-E7D61A85DDDD} = {03BD1B83-D082-4AF3-8389-773C031B3619}
+		{CDB22DD0-88ED-48C3-8308-D88DC62D499B} = {E97CCC31-38D0-496F-8F46-B47576656D90}
+		{6523D6EF-18ED-4FCC-AD6F-9BBDC3C6F7C2} = {CDB22DD0-88ED-48C3-8308-D88DC62D499B}
+		{0A56CE87-2AA0-4274-BB9D-2A05DB21A29D} = {03BD1B83-D082-4AF3-8389-773C031B3619}
+		{D27040B8-6F32-4981-BB5B-3EC7BBD58B28} = {31A0F9FB-9B89-4A04-8634-AE07A29784F6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ACAD6A0F-6E87-49E1-A7B6-5EE5A9657E1B}
+	EndGlobalSection
+EndGlobal
